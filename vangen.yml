@@ -1,0 +1,5 @@
+domain: go.firedancer.io
+repositories:
+  - type: git
+    prefix: radiance
+    url: https://github.com/firedancer-io/radiance
