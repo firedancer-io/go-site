@@ -22,6 +22,7 @@ jobs:
           | sha256sum --check
         tar -xvzf vangen.tar.gz
     - run: ./bin/vangen
+    - run: mv ./static/index.html ./vangen/
     - uses: actions/upload-pages-artifact@v1
       with:
         path: vangen
